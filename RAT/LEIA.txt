@@ -1,0 +1,3 @@
+O RAT (Remote Access Tool) é uma ferramenta de acesso remoto, que integra o já construído PsExec, passando-lhe parâmetros facilitados.
+
+O objetivo é tornar a ferramenta PsExec mais simples ainda.
