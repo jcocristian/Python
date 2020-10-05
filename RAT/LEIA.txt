@@ -1,3 +1,8 @@
 O RAT (Remote Access Tool) é uma ferramenta de acesso remoto, que integra o já construído PsExec, passando-lhe parâmetros facilitados.
 
 O objetivo é tornar a ferramenta PsExec mais simples ainda.
+
+Para usar o RAT, você precisa baixar o pacote psExec np link abaixo:
+https://download.sysinternals.com/files/PSTools.zip
+
+Extrair em uma pasta, e executar o RAT.py dentro dessa mesma pasta.
