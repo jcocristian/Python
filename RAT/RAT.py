@@ -7,10 +7,10 @@ while True:
     print('{:-^70}\n{}\n'.format(f': {txt[0]} :', txt[6]))
     print('''AÇÃO REMOTA\n1: CMD\n2: Abrir C:\n3: Senha\n4: Serviços\n5: Power\n6: Sair''')
     op = input('>> ').strip().lower()
-    if op == '1' or op == 'cmd': #Acessar CMD remoto.
+    if op == '1' or op == 'cmd':  # Acessar CMD remoto.
         system(f'mode 100,22 & cls & color 0f & title {txt[0]} - {txt[4]}')
         op1 = input(f'CMD\nMétodo de Autenticação:\n1: Transparente.\n2: Personalizado.\n').strip().lower()
-        if op1 == 'transparente' or op1 == '1': #Método Transparente.
+        if op1 == 'transparente' or op1 == '1':  # Método Transparente.
             while op1 == 'transparente' or op1 == '1':
                 pc = input('CMD\nInforme o nome da máquina: ')
                 system(f'{rat[0]} \\\\{pc} -s cmd.exe')
