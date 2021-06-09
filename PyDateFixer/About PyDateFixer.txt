@@ -1,0 +1,2 @@
+Script to fix a date on Windows Systems.
+You define a date, and the verification time, and the Script verifies the date, and if it deviates from the defined date, it resets it.
