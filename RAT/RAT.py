@@ -1,7 +1,7 @@
 from os import system
 u = d = pc = c = str()
-rat = ('psexec.exe', 'psservice.exe', 'pspasswd.exe', 'scanip.exe', 'shutdown -s -t', 'shutdown -r -t', 'shutdown -a -m')
-txt = ('Remote Acess Tool v2.0', 'Editor de Senha', 'Serviços', 'POWER', 'CMD', 'Scan IP', 'By: Cristian Oliveira', 'Disco C')
+rat = ('remote.exe', 'ratserv.exe', 'ratpasswd.exe', 'scanip.exe', 'shutdown -s -t', 'shutdown -r -t', 'shutdown -a -m')
+txt = ('Ferramenta de Acesso Remoto', 'Editor de Senha', 'Serviços', 'POWER', 'CMD', 'Scan IP', 'By: Jonas Cristian', 'Disco C')
 while True:
     system(f'mode 70,22 & cls & color 1f & title {txt[0]}')
     print('{:-^70}\n{}\n'.format(f': {txt[0]} :', txt[6]))
